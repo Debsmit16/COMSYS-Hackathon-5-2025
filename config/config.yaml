@@ -1,0 +1,30 @@
+data:
+  train_path: data/processed/train
+  val_path:   data/processed/val
+  test_path:  data/processed/test
+  image_size: [224, 224]
+  batch_size: 32
+
+model:
+  siamese:
+    backbone: resnet50
+    embedding_dim: 128
+    triplet_margin: 0.2
+  gender:
+    backbone: efficientnet_b3
+    dropout_rate: 0.3
+
+training:
+  epochs: 100
+  learning_rate: 0.001
+  scheduler: cosine
+  early_stopping: {patience: 15, min_delta: 0.001}
+  augmentation:
+    techniques: [horizontal_flip, rotation, brightness, fog, rain, motion_blur]
+  tta:
+    enabled: true
+    n_augmentations: 5
+
+hardware:
+  device: auto
+  mixed_precision: true
