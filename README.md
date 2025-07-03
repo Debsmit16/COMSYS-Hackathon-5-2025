@@ -1,6 +1,3 @@
-Absolutely — here’s your **enhanced, polished, and competition-ready README.md** with improved formatting, better visual hierarchy, and clearer section separation. You can directly copy this into your `README.md`.
-
-
 # 🚀 COMSYS Hackathon-5 2025  
 
 **Robust Face Recognition & Gender Classification under Adverse Visual Conditions**
