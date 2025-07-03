@@ -130,7 +130,7 @@ python scripts/evaluate_model.py --test_path data/processed/test
 
 ## 📄 Documentation
 
-* 📌 **Architecture Diagram:** [`docs/model_architecture.png`](docs/model_architecture.png)
+* 📌 **Architecture Diagram:** [`docs/Model_architecture.png`](docs/Model_architecture.png)
 * 📌 **Technical Summary:** [`docs/technical_summary.pdf`](docs/technical_summary.pdf)
 
 ---
