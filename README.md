@@ -141,9 +141,8 @@ Run all tests:
 
 
 pytest tests/ -q
-```
 
----
+
 
 ## 🛠️ Troubleshooting
 
