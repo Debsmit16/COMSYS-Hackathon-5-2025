@@ -42,7 +42,7 @@ COMSYS-Hackathon-5-2025/
 git clone https://github.com/Debsmit16/COMSYS-Hackathon-5-2025.git
 cd COMSYS-Hackathon-5-2025
 pip install -r requirements.txt
-```
+
 
 ### 🔹 2️⃣ Prepare Dataset
 
@@ -83,17 +83,17 @@ data/processed/test/
 
 python scripts/train_gender_classifier.py
 python scripts/train_face_matcher.py
-```
+
 
 ### 🔹 4️⃣ Evaluate
 
 
 python scripts/evaluate_model.py --test_path data/processed/test
-```
+
 
 ➡️ Results (CSV, JSON) will appear in the `results/` folder.
 
----
+
 
 ## 🧠 Solution Approach
 
